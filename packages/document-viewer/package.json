@@ -1,0 +1,53 @@
+{
+  "name": "@kirasystems/document-viewer",
+  "author": "kirasystems",
+  "version": "0.1.3",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test --passWithNoTests",
+    "lint": "tsdx lint",
+    "prepare": "tsdx build"
+  },
+  "peerDependencies": {
+    "@material-ui/core": ">=4",
+    "react": ">=16",
+    "react-dom": ">=16"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "semi": true,
+    "trailingComma": "es5"
+  },
+  "dependencies": {
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.58",
+    "flatbush": "^3.3.0",
+    "lodash": "^4.17.21",
+    "resize-observer-polyfill": "^1.5.1"
+  },
+  "devDependencies": {
+    "@material-ui/core": "^4.11.4",
+    "@types/flatbush": "^3.3.0",
+    "@types/jest": "^26.0.23",
+    "@types/lodash": "^4.14.170",
+    "@types/react": "^17.0.5",
+    "@types/react-dom": "^17.0.3",
+    "autoprefixer": "^10.2.5",
+    "cssnano": "^5.0.2",
+    "husky": "^6.0.0",
+    "postcss": "^8.2.14",
+    "postcss-cli": "^8.3.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rollup-plugin-postcss": "^4.0.0",
+    "tsdx": "^0.14.1",
+    "tslib": "^2.2.0",
+    "typescript": "^4.2.4"
+  }
+}
